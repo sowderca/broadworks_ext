@@ -1,0 +1,413 @@
+/* 
+Copyright 2013, BroadSoft, Inc.
+
+Licensed under the Apache License,Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+ 
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "ASIS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+ */
+html {
+	height: 220px;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 280px;
+	height: 220px;
+	overflow: hidden;
+	text-align: center;
+}
+
+a {
+	font-size: 8pt;
+}
+
+input {
+	font-size: 8pt;
+}
+
+button {
+	font-size: 8pt;
+}
+
+legend {
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+fieldset {
+	margin: 10px;
+	border-color: #3E68A4;
+}
+
+td {
+	font-size: 8pt;
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	
+}
+
+ul.ui-autocomplete {
+	text-align: left;
+}
+
+#statusWrapper {
+	height: 22px;
+	font-size: 8pt;
+	margin: 2px;
+}
+
+#name {
+	font-size: 10pt;
+	font-weight: bold;
+	float: left;
+}
+
+#signin_label {
+	color: #333333;
+	font-size: 8pt;
+	font-weight: bold;
+	position: absolute;
+	top: 4px;
+	left: 13px;
+}
+
+#about_label {
+	font-size: 10pt;
+	font-weight: bold;
+	position: absolute;
+	top: 4px;
+	left: 13px;
+}
+
+#about_box {
+	position: absolute;
+	top: 25px;
+	left: 13px;
+	width: 245px;
+	height: 170px;
+	border: 2px solid #3E68A4;
+}
+
+#about_text {
+	text-align: left;
+	font-size: 8pt;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	height: 110px;
+	width: 230px;
+	overflow: auto;
+}
+
+#about_text p {
+	margin: 5px;
+}
+
+#about_text h1 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#about_link_tabs a {
+	color: #333333;
+	outline: none;
+	position: absolute;
+	right: 2px;
+	top: 237px;
+}
+
+#about_link_options a {
+	color: #333333;
+	outline: none;
+	position: absolute;
+	right: 14px;
+	top: 205px;
+}
+
+#about_ok_button {
+	background-color: #3E68A4;
+	color: white;
+	border: 0;
+	width: 100px;
+	font-size: 8pt;
+	height: 30px;
+	cursor: pointer;
+	position: absolute;
+	top: 155px;
+	left: 90px;
+}
+
+#about_ok_button:hover {
+	background-color: #3E68A4;
+}
+
+#settings {
+	font-size: 8pt;
+	position: absolute;
+	top: 18px;
+	left: 13px;
+	width: 250px;
+	height: 185px;
+	border: 2px solid #3E68A4;
+}
+
+#services {
+	font-size: 8pt;
+}
+
+#settings input {
+	width: 190px;
+}
+
+#urldiv {
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	width: 220px;
+}
+
+#usernamediv {
+	position: absolute;
+	top: 60px;
+	left: 15px;
+	width: 220px;
+}
+
+#passworddiv {
+	position: absolute;
+	top: 85px;
+	left: 15px;
+	width: 220px;
+}
+
+#status {
+	position: absolute;
+	top: 105px;
+	left: 15px;
+	width: 220px;
+}
+
+#signin {
+	background-color: #3E68A4;
+	color: white;
+	border: 0;
+	width: 150px;
+	font-size: 8pt;
+	height: 30px;
+	cursor: pointer;
+	position: absolute;
+	top: 140px;
+	left: 50px;
+}
+
+#signout_link_tabs {
+	color: #333333;
+	height: 17px;
+}
+
+#signout a {
+	color: #333333;
+	outline: none;
+	position: absolute;
+	top: 1px;
+	right: 2px;
+}
+
+#signin:hover {
+	background-color: #3E68A4;
+}
+
+#status {
+	font-size: 8pt;
+	margin: 2px;
+	color: #9C0C0C;;
+}
+
+#dialer {
+	font-size: 8pt;
+	margin: 0 auto;
+}
+
+#history {
+	font-size: 8pt;
+	margin: 2px;
+}
+
+#preferences {
+	font-size: 8pt;
+	margin: 2px;
+}
+
+#tabs {
+	height: 90%;
+	border-color: #3E68A4;
+	margin: 0 auto;
+}
+
+#tabs li {
+	background-color: #ffffff;
+}
+
+#toolbar {
+	height: 20px;
+	width: 278px;
+	background-color: #F4F4F4;
+	border-width: .1em;
+	border-style: solid;
+	border-color: #3E68A4;
+	border-top-style: none;
+	position: abosolute;
+	bottom: 10;
+	left: 20;
+}
+
+#whitespace_below_toolbar {
+	height: 14px;
+	width: 278px;
+	background-color: #FFFFFF;
+	position: abosolute;
+	bottom: 10;
+	left: 20;
+}
+
+#dndbutton {
+	position: absolute;
+	bottom: 15px;
+	left: 160px;
+	cursor: pointer;
+}
+
+#cfabutton {
+	position: absolute;
+	bottom: 15px;
+	left: 130px;
+	cursor: pointer;
+}
+
+#robutton {
+	position: absolute;
+	bottom: 15px;
+	left: 100px;
+	cursor: pointer;
+}
+
+#clicktodial {
+	position: absolute;
+	left: 10px;
+	bottom: 120px;
+}
+
+#notifications {
+	position: absolute;
+	left: 10px;
+	bottom: 100px;
+}
+
+#texttospeech {
+	position: absolute;
+	left: 10px;
+	bottom: 80px;
+}
+
+#destination {
+	width: 240px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#calllogs {
+	overflow: auto;
+	height: 155px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#calllogentries {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#calllogentries tr td {
+	padding: 5px;
+	text-align: left;
+	vertical-align: bottom;
+	border-bottom: 1px solid #F1F1F1;
+	font-size: 9px;
+}
+
+#calllogentries tr td p {
+	margin: 0px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#calllogentries tr:hover {
+	background-color: #FCD8B1;
+}
+
+#restartmessage {
+	font-size: 12px;
+	color: #359C0C;
+	position: absolute;
+	top: 85px;
+	left: 13px;
+}
+
+#calls {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+#calls tr {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#calls tr td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#calls tr td:first-child {
+	width: 196px;
+	text-align: left;
+}
+
+#calls tr td:first-child+td {
+	width: 24px;
+	text-align: right;
+}
+
+#calls tr td:first-child+td+td {
+	width: 24px;
+	text-align: right;
+}
+
+#calls tr td img {
+	padding: 1px;
+	vertical-align: middle;
+}
+
+.nameAndNumber {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.callDuration {
+	font-size: 18px;
+	text-align: center;	
+}
